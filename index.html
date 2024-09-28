@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Tap Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="scoreboard">
+      <h1>Score: <span id="score">0</span></h1>
+      <h1>Level: <span id="level">1</span></h1>
+    </div>
+    <div class="hoop" id="hoop">
+      <div class="ring"></div>
+    </div>
+    <div class="ball" id="ball"></div>
+  </div>
+
+  <button id="restartBtn" class="hidden">Restart Game</button>
+
+  <!-- Sound Effect -->
+  <audio id="swooshSound" src="swoosh.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
